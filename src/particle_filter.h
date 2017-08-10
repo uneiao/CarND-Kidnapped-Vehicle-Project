@@ -115,7 +115,7 @@ public:
 		return is_initialized;
 	}
 
-    void Homotrans(const Particle& p, const Map::single_landmark_s& map_landmark, LandmarkObs* obs);
+    void Homotrans(const Particle& p, const LandmarkObs& map_landmark, LandmarkObs* obs);
 };
 
 
